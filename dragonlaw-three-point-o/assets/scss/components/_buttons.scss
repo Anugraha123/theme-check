@@ -1,0 +1,54 @@
+.sites-button {
+  background: #FF6908;
+  font-size: 1.25rem;
+  font-weight: bold;
+  box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+  border: none;
+}
+
+.button {
+  font-size: 1rem;
+  border-radius:3px;
+  // font-weight: $light;
+}
+
+.button.trail {
+  background-color: #fff;
+  border: .1rem solid #999;
+  color: #9a9898;
+}
+
+.button.bg_trail {
+  width: 160px;
+  background-color: #fff;
+  border-radius:3px;
+  color: #4cbac0;
+  margin-bottom: 1rem;
+  // width: 100%;
+}
+
+.button.primary {
+  width: 180px;
+  background-color: #4cbac0;
+  color: #fff;
+}
+
+.button.contact {
+  padding: .8rem 2.2rem;
+  background-color: #fff;
+  border: 1px solid #9a9898;
+  border-radius:3px;
+  color: #4cbac0;
+  &:hover {
+    border-color: #666;
+    color:#666;
+  }
+}
+
+
+// Button Related
+.btn_dwn_text{
+  font-size: .8rem;
+  margin-top: -.5rem;
+}

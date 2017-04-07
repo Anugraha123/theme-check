@@ -1,0 +1,68 @@
+.dl_top_bar {
+  font-size: rem;
+  .title-bar {
+  background:#fff;
+    .title-bar-title {
+      width: 100%;
+     .dl_logo {
+        text-transform: uppercase;
+        float: left;
+        font-size: 1rem;
+        margin:.3rem;
+      }
+
+      .menu-icon{
+        width: 1.5rem;
+        float: right;
+        vertical-align: middle;
+        margin: .5rem;
+        &::after{
+          background: #aaa;
+          box-shadow: 0 7px 0 #aaa, 0 14px 0 #aaa;
+        }
+      }
+    }
+  }
+
+  .menu-list-menu {
+    display: none;
+    background:#f2f2f0;
+    width: 100%;
+    padding:1rem;
+    li {
+      display: block;
+      padding: 1rem 0;
+    }
+    li.trail {
+      display: none !important;
+    }
+    a {
+      display: block;
+      padding:0;
+      color: #aaa;
+      text-align: left;
+      &:hover {
+        color: #666;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .dl_top_bar {
+    .title-bar.mobile{
+      display: none;
+    }
+    .menu-list-menu {
+      float: right;
+      // display: inline-block;
+      background:#fff;
+      .menu {
+        li {
+          float: left;
+        }
+      }
+    }
+  }
+}
+
